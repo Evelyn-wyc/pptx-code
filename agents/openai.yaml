@@ -1,0 +1,5 @@
+interface:
+  display_name: "PPTX Code"
+  short_description: "Build and validate evidence-led research PowerPoint decks"
+  default_prompt: "Use $pptx-code to turn this research into a clear, evidence-led presentation with speaker notes."
+
