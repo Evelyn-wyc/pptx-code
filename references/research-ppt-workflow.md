@@ -16,15 +16,26 @@ Write the likely questions before writing slide titles:
 
 Use these questions as an answer chain. For a completed study, close with the selected method, evidence, and boundary. Add future work only when it is part of the research state or the user asks for it.
 
+### Review the argument before construction
+
+Inventory the completed work, then record each experiment or activity as:
+
+`question / phenomenon → reason for the comparison → evidence and controls → supported interpretation → next question`
+
+The author or assisting AI reviews this map before building slides. A useful test is whether each page can finish the sentence “We examine this because the preceding evidence leaves … unresolved.” An independent result can instead establish a needed premise; the sequence does not have to force every study into one causal chain.
+
+Use the actual status of the work. An exploratory experiment may reveal a pattern, a controlled comparison may test an explanation, and a follow-up may diagnose a failure. Distinguish those roles instead of retroactively claiming every experiment was designed to confirm the final conclusion. Keep mixed and negative evidence when it changes the inference. Put studies in the order the audience needs to understand them, and select visuals only after their argumentative jobs are clear.
+
 ## 2. Prepare a page map and evidence ledger
 
 Each page-map row should contain:
 
-- page job;
+- question and page job;
+- reason for the experiment at this point and the comparison it uses;
 - topic title;
 - takeaway sentence;
 - primary visual or table;
-- speaking purpose;
+- speaking purpose and connection to the next question;
 - source and comparison basis.
 
 The evidence ledger should record the data source, as-of date, sample, period, benchmark, metric definition, weighting rule, and whether the result is fitted, validated, or replayed. Use it to prevent accidental cross-period comparisons and hindsight leakage.
@@ -138,3 +149,12 @@ Use this compact test during review:
 > one question + one takeaway + one piece of evidence + one explanation + one transition
 
 Ask whether the slide answers a clear question, states its conclusion, proves it with the right evidence, explains the choice in notes, and connects naturally to the remaining argument.
+
+
+## Body-region layout
+
+1. **Locate the content rectangle.** Read the actual master and slide geometry. The top boundary is the bottom of the title separator plus its intended clearance. If there is no separator, use the last title or conclusion subtitle plus clearance. The bottom boundary is the top of the footer or fixed source band minus clearance. Use the template's left and right content margins. Title, separator, footer, and page number stay outside this rectangle; it is not the entire slide.
+2. **Identify visible content.** Treat the primary chart and its axes, ticks, legend, annotations, table, cards, and body copy as one composition. Include captions and takeaways that are part of the slide's argument. Ignore hidden objects, transparent extents, background-only rectangles, and unused image padding when assessing where the content actually appears. Crop unnecessary asset padding or rebuild the plot before compensating with slide offsets.
+3. **Balance the group.** Translate the composition together until upper/lower and left/right unused space are approximately balanced in the content rectangle. Preserve internal reading order, chart-label relationships, column alignment, and left alignment inside text boxes. Centering a group does not mean setting every paragraph to centered text. For intentionally asymmetric layouts, retain the hierarchy and assess visual weight rather than imposing geometric symmetry on every object.
+4. **Allocate enough area to the evidence.** An evenly centered but undersized chart is still a poor layout. Enlarge the usable plot region, reduce repeated callouts, or move supporting figures into a compact strip. A wide bottom takeaway can make the bounding box look centered while the primary evidence remains crowded above; review those internal gaps separately. Do not use a decorative frame to satisfy a centering check.
+5. **Review rendered pages.** Inspect actual ink and data geometry in a target-application render at presentation scale. Check all four outer gaps, primary-visual size, and internal spacing. Geometry or pixel bounds are diagnostics, not proof of optical balance. Move, resize, or rebuild the content as needed and rerender affected pages; record intentional asymmetry when it materially affects the layout judgment.
