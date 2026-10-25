@@ -33,7 +33,7 @@ Each page-map row should contain:
 - question and page job;
 - reason for the experiment at this point and the comparison it uses;
 - topic title;
-- takeaway sentence;
+- takeaway sentence for internal planning;
 - primary visual or table;
 - speaking purpose and connection to the next question;
 - source and comparison basis.
@@ -48,26 +48,30 @@ During production, answer this internal prompt:
 
 > What should the audience remember after this slide?
 
-The title, takeaway, visual, and notes should all support that answer.
+The title, visual, and notes should all support that answer. The planning takeaway need not appear as a sentence on the slide.
 
-## 4. Use titles and subtitles deliberately
+## 4. Keep titles short and consistent
 
-- Title: a short topic phrase such as `单因子检验`, `组合构建`, or `经营模式分布`.
-- Takeaway: the conclusion, such as `综合分决定入选，流通市值决定权重`.
+- Use a short topic phrase that identifies the page's job, such as `Detection Results`, `Event Claims`, or `组合构建`.
+- Keep ordinary titles at the same size, weight, and position. Use the font contract in `SKILL.md`.
+- Do not add a summary sentence beneath the title unless explicitly requested. Keep the internal takeaway in the page map and spoken explanation; use a local chart annotation only when it clarifies the evidence.
+- Omit decorative labels above titles and routine part-number prefixes. Use PowerPoint sections or dedicated section slides for navigation when useful.
 
-Avoid generic labels that leave the audience guessing about the page's finding. A cover, agenda, section opener, or transition does not need a forced conclusion subtitle.
+Balance brevity with meaning: the title should identify what the audience is about to see. A cover, agenda, or section opener can use its approved hierarchy.
 
 ## 5. Divide work between slide and notes
 
-The slide holds the rule, main number, result, visual evidence, and one-sentence conclusion. Notes carry the reason for the design, calculation details, interpretation of exceptions, limitations, and transition.
+The slide carries the visual evidence, essential labels, and decisive numbers. Notes explain the displayed content in natural spoken language, including the reason for the design, interpretation, necessary qualifications, and transitions. Keep source records, timings, editing comments, action directions, and duplicated slide-text lists in project records rather than speaker notes.
 
-A useful speaking sequence is:
+A useful oral sequence, adapted to the actual visual, is:
 
-1. point to the visual;
-2. identify the evidence;
-3. explain the design choice or exception;
-4. state the conclusion;
-5. connect to the next question when one remains.
+1. connect the page to the preceding idea;
+2. explain what the chart axes and marks, or diagram blocks and arrows, represent;
+3. explain the question and comparison in each meaningful panel, in visual order;
+4. interpret the result and any qualification needed for that interpretation;
+5. connect to the next unresolved question, ending naturally on the conclusion slide.
+
+These are drafting decisions, not stage directions to paste into notes. A phrase such as “The right panel tests whether…” is spoken prose. Every substantive visual should be explained, and every spoken claim should help explain the current page. Cover key labels and findings without reading every number or adding experiments that the audience cannot see.
 
 ## 6. Match the visual to the evidence
 
@@ -80,13 +84,13 @@ A useful speaking sequence is:
 - Source-backed cases: table with date, original evidence, and rule.
 - Up to three short judgments: text cards.
 
-Use the smallest visual that proves the takeaway. A chart should encode data, not decorate a page.
+Choose the visual that makes the comparison easiest to understand at presentation scale. A chart should encode data, not decorate a page.
 
 ### Make the evidence visual-first
 
-On an evidence slide, choose the primary visual before writing body copy. If a result can be plotted or shown, make that chart, image, matrix, diagram, or compact table the main object on the page. Keep only the takeaway, essential labels, and source visible; move causal explanation, method detail, exceptions, and transitions into speaker notes.
+On an evidence slide, choose the primary visual before writing body copy. If a result can be plotted or shown, make that chart, image, matrix, diagram, or compact table the main object on the page. Keep visible text to essential labels, brief annotations, and sources; explain the evidence in speaker notes. Multiple related panels can share a page when they answer one question and remain readable.
 
-Use SVG with brief text when the evidence is conceptual and no suitable data chart or raster image exists. Do not add decorative images that compete with or imply evidence.
+Reuse suitable original research figures, PPT assets, or original HTML image files before reconstructing them or capturing rendered pages. Enlarge or crop relevant panels to preserve sharpness and legible labels. Use native diagrams or SVGs for a conceptual explanation that has no suitable source visual. Do not add decorative images that compete with or imply evidence, or replace plots with a sequence of text cards.
 
 ### Match generated-image backgrounds to the slide
 
@@ -114,11 +118,13 @@ Separate incompatible periods or samples. Label them directly rather than relyin
 
 ## 8. Leave an evidence trail
 
-Every important judgment should support questions about source, calculation, date, reproducibility, and classification rule. Prefer primary or authoritative sources for policy, industry, and company facts. Preserve the original text, date, and decision basis for qualitative classifications.
+Every important judgment should support questions about source, calculation, date, reproducibility, and classification rule. Prefer primary or authoritative sources for policy, industry, and company facts. Preserve the original text, date, and decision basis for qualitative classifications in the evidence ledger. Visible paper references use standard bibliographic citations; speaker notes contain the actual talk.
 
 ## 9. Explain methods at the level needed for the conclusion
 
-Cover the choice, purpose, rule, failure mode, and economic or operational meaning. Keep implementation formats and incidental code details in notes or backup material. A transparent rule, a tree, and an additive or interaction model may share a section when the page makes their different roles explicit.
+Cover the choice, purpose, rule, failure mode, and economic or operational meaning. Explain implementation details in speech only when they help interpret the displayed method; keep incidental formats and code details in project records or requested backup material. A transparent rule, a tree, and an additive or interaction model may share a section when the page makes their different roles explicit.
+
+Organize related work around the obstacles it leaves unresolved, with a specific and fair limitation for each comparison. Introduce the overall framework before explaining its modules. Explain what each module receives, does, and returns. Use a worked example or diagram to make an abstract analysis understandable before expanding the formal argument. Place retrospective mechanism studies where their role in explaining the observed result is clear.
 
 ## 10. State boundaries as research findings
 
@@ -128,32 +134,32 @@ Mixed evidence can still support a decision. Say whether an input is suitable fo
 
 Use three visual levels:
 
-1. takeaway for a five-second read;
+1. topic title for orientation;
 2. evidence for the main inspection;
 3. source and qualification for verification.
 
-Keep ordinary body text at a readable size. If a table needs silent reading time, let the notes first state the overall pattern, then discuss one or two representative entries.
+Apply the size, weight, contrast, and padding contract in `SKILL.md`, including text inside imported figures and SVGs. If a table needs silent reading time, let the speech first state the overall pattern, then discuss one or two representative entries. Merge sparse neighboring slides that answer the same question; split a dense page when distinct conclusions compete. Preserve generous text-to-frame padding while using enough of the page for substantive evidence.
 
 ## 12. Allocate time by novelty
 
-Move quickly through background, agenda, and standard procedures. Spend more time on the original method, decisive evidence, surprising result, and boundary. For a 12-minute research talk, a workable starting allocation is 1.5 minutes for the problem, 3 minutes for standard methods, 4 minutes for the central contribution, 2.5 minutes for results and interpretation, and 1 minute for the conclusion. Adapt this to the actual page map.
+Move quickly through background, agenda, and standard procedures. Spend more time on the original method, decisive evidence, surprising result, and boundary. Allocate time using the page map and estimate or rehearse the spoken script with pauses for figures. When it runs long, reduce secondary content or merge overlapping pages; do not compensate by shrinking type, rushing speech, or leaving displayed evidence unexplained.
 
 ## 13. Inspect the rendered deck
 
-Use the exported or projected pages as the final visual authority. Check font size, replacement fonts, line breaks, alignment, table crowding, chart aspect ratio, SVG rendering, image borders and background seams, page numbering, notes, and animations. Preserve a manually approved version as the visual reference for later revisions.
+Use the exported or projected pages as the final visual authority, with visual-model review when available. Check font size and weight, text contrast, replacement fonts, title consistency, line breaks, padding, alignment, table crowding, chart aspect ratio, SVG rendering, image borders and background seams, page numbering, notes, and inherited effects. Follow the cross-platform checks in `SKILL.md`; native text-box checks cannot assess text embedded in figures. Read the speech beside each revised page to check coverage, natural transitions, and numerical consistency. Preserve the latest manually approved version as the reference for later revisions.
 
 ## Single-slide test
 
 Use this compact test during review:
 
-> one question + one takeaway + one piece of evidence + one explanation + one transition
+> one clear question + sufficient visual evidence + a supported conclusion + a complete spoken explanation
 
-Ask whether the slide answers a clear question, states its conclusion, proves it with the right evidence, explains the choice in notes, and connects naturally to the remaining argument.
+Ask whether the page answers its question, makes the evidence easy to read, and explains every meaningful visual in natural speech. Connect to the remaining argument when there is one; the conclusion ends the talk. This is a review test, not a set of text boxes to add to the page.
 
 
 ## Body-region layout
 
-1. **Locate the content rectangle.** Read the actual master and slide geometry. The top boundary is the bottom of the title separator plus its intended clearance. If there is no separator, use the last title or conclusion subtitle plus clearance. The bottom boundary is the top of the footer or fixed source band minus clearance. Use the template's left and right content margins. Title, separator, footer, and page number stay outside this rectangle; it is not the entire slide.
+1. **Locate the content rectangle.** Read the actual master and slide geometry. The top boundary is the bottom of the title separator plus its intended clearance. If there is no separator, use the bottom of the approved header block plus clearance. The bottom boundary is the top of the footer or fixed source band minus clearance. Use the template's left and right content margins. Title, separator, footer, and page number stay outside this rectangle; it is not the entire slide.
 2. **Identify visible content.** Treat the primary chart and its axes, ticks, legend, annotations, table, cards, and body copy as one composition. Include captions and takeaways that are part of the slide's argument. Ignore hidden objects, transparent extents, background-only rectangles, and unused image padding when assessing where the content actually appears. Crop unnecessary asset padding or rebuild the plot before compensating with slide offsets.
 3. **Balance the group.** Translate the composition together until upper/lower and left/right unused space are approximately balanced in the content rectangle. Preserve internal reading order, chart-label relationships, column alignment, and left alignment inside text boxes. Centering a group does not mean setting every paragraph to centered text. For intentionally asymmetric layouts, retain the hierarchy and assess visual weight rather than imposing geometric symmetry on every object.
 4. **Allocate enough area to the evidence.** An evenly centered but undersized chart is still a poor layout. Enlarge the usable plot region, reduce repeated callouts, or move supporting figures into a compact strip. A wide bottom takeaway can make the bounding box look centered while the primary evidence remains crowded above; review those internal gaps separately. Do not use a decorative frame to satisfy a centering check.
